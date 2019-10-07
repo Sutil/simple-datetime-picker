@@ -1,0 +1,23 @@
+{
+  "name": "simple-datetime-picker",
+  "version": "1.0.0",
+  "description": "A simple way to use date time in React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Datetime",
+    "picker",
+    "time",
+    "date",
+    "react-native"
+  ],
+  "author": "Eduardo Sutil",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.1.0",
+    "date-fns": "^2.4.1",
+    "styled-components": "^4.4.0"
+  }
+}
