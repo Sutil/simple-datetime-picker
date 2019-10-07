@@ -11,7 +11,7 @@ import {
   ButtonText,
 } from './styles';
 
-export default function DateTimeInput({
+export default function SimpleDatetimePicker({
   date,
   onValueChange,
   placeholder,
