@@ -1,15 +1,25 @@
 import styled from 'styled-components/native';
 
-export const DateTimeButton = styled.TouchableOpacity`
-  height: 50px;
-  border-radius: 12px;
-  border: 1px;
-  border-color: #999;
-  padding: 0 10px;
+export const ModalContainer = styled.View`
+  flex: 1;
   justify-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
 `;
 
-export const DateTimeLabel = styled.Text`
-  font-size: 18px;
-  color: ${props => (props.ok ? '#333' : '#999')};
+export const ModalContent = styled.View`
+  background: #fff;
+`;
+
+export const ModalButtons = styled.View`
+  flex-direction: row;
+  justify-content: flex-end;
+`;
+
+export const Button = styled.TouchableOpacity`
+  margin: 20px;
+`;
+
+export const ButtonText = styled.Text`
+  font-size: 24px;
 `;
